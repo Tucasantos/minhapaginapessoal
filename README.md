@@ -1,6 +1,12 @@
-Meu Primeiro Repositório 
+            *Meu Primeiro Repositório*
 
+----- Atividade para criar minha landing page ----
 
-======================== 
+===================================================
 
-TucaDev! - 2023
+        Desenvolvido por TucaDev! - 2023
+
+===================================================
+Sobre as tecnologias utilizadas no projeto:
+
+* HTML e CSS
