@@ -1,0 +1,60 @@
+body h3 {
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 2px #656464;
+    cursor: pointer;
+}
+
+main {
+    padding: 10%; 
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 90px;
+    color: #ffffff;
+    background-color: #fc3d3d;
+    text-shadow: 1px 1px 1px #000000; 
+    box-shadow: 3px 3px 3px #000204;
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset > label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+fieldset > input {
+    height: 25px;
+}
+
+.input-form {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px)
+{  form {
+        width: 90%;
+    }
+}
+
+.button {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    background-color: #ff0000;
+}
+.button:hover {
+    display:table;
+    box-shadow: 3px 3px 5px #000204;
+}

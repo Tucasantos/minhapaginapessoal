@@ -1,0 +1,31 @@
+main {
+    margin: auto;
+    padding: 25%;
+    text-align: center;
+}
+
+.item-portfolio {
+    display: inline-block;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.item-portfolio:hover {
+    box-shadow: 2px 2px 20px #000204;
+    opacity: 0.9;
+    cursor:pointer
+}
+
+.item-portfolio > img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.item-portfolio > p {
+    padding: 2px;
+    color: #ff0000;
+    text-shadow: 1px 1px 1px #000000;  
+
+}

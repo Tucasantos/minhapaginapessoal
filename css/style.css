@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'tahoma', sans-serif;
+    
+}
+
+header {
+    background-image: url("../img/fundo6.jfif");
+    padding: 05px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px #000000;
+}
+
+header > img {
+    
+    box-shadow: 5px 5px 8px #000000;
+    border-radius: 40%;
+    width: 30vh; height: 30vh;
+    
+}
+
+nav {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 05px;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 2.0%;
+}
+
+li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    padding: 05px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+.button {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

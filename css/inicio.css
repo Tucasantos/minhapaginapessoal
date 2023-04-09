@@ -1,0 +1,9 @@
+section {
+    background-color: #fc3d3d;
+    color: hsl(0, 0%, 100%);
+    margin: 30px;
+    padding: 25px;
+    border-radius: 75px;
+    box-shadow: 2px 2px 5px #000204;
+    text-shadow: 2px 2px #000000;
+}
